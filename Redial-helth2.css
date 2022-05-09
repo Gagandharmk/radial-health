@@ -1,0 +1,585 @@
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+
+    }
+
+    /*  ------------------------------------ Background images---------------------------------------------------------------------------------- */
+
+    .mainc {
+        max-width: 1420px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+
+
+        /* background image */
+        background-image: url(element.png),
+            url(Vector.png),
+            url(element.png),
+            url(element.png),
+            url(element.png),
+            url(element.png),
+            url(Vector.png);
+        background-repeat: no-repeat;
+        background-position: 0px 100px,
+            -150px 850px,
+            1200px 1090px,
+            1370px 2000px,
+            176px 3000px,
+            125px 3230px,
+            1000px 3100px;
+        background-size: 80px 70px,
+            800px 450px,
+            80px 70px,
+            80px 70px,
+            80px 70px,
+            80px 70px,
+            800px 450px;
+        transform: rotate(0deg);
+
+    }
+
+
+    /* --------------------------------------------------------this is the header section ----------------------------------- */
+
+
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1320px;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    /* .logo {
+        max-width: 50px;
+    } */
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+
+
+        margin-left: 43px;
+        color: #818385;
+        font-weight: 300;
+
+    }
+
+    .last {
+        padding-right: 100px;
+    }
+
+    .home {
+        color: #1f1534;
+        font-weight: 700;
+    }
+
+
+
+    /* ----------------------------------------------This is the first section starting from here ----------------------------*/
+
+
+
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        justify-content: space-around;
+        margin: 0 auto;
+
+
+
+    }
+
+    .w-100-img {
+        max-width: 700px;
+    }
+
+    .w-100 {
+
+        width: 100%;
+
+    }
+
+    .virtual-helth {
+
+        max-width: 400px;
+        /* min-width: 100px; */
+        margin-top: 100px;
+    }
+
+    /* .element {
+        height: 86px;
+        position: absolute;
+        left: -2px;
+        top: 130px;
+        margin-left: 8px;
+    } */
+
+    h1 {
+        font-size: 48px;
+        /* text-align: center; */
+
+    }
+
+    .para {
+        font-size: 19px;
+        font-weight: 300;
+        max-width: 374 px;
+        margin: 15px 0px 15px 0px;
+        word-spacing: 4 px;
+        color: #818385;
+    }
+
+
+    .btn1 {
+        border-radius: 20px;
+        border-style: none;
+        padding: 8px 15px 8px 15px;
+        background-color: #458FF6;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+
+    .main-2 .our {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .section-2-1 {
+
+        max-width: 1100px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .main-2 hr {
+        height: 4px;
+        width: 50px;
+        border-radius: 50px;
+        /* text-align: center; */
+        /* margin: auto; */
+        background-color: black;
+        border: none;
+        margin: 20px auto;
+    }
+
+
+    .para-2 {
+        max-width: 850px;
+        text-align: center;
+        margin: 10px auto;
+        font-size: 19px;
+        font-weight: 300;
+        word-spacing: 4 px;
+        color: #818385;
+    }
+
+
+    /*---------------------------------------------- This is the 2nd Section's Css right here ------------------------------- */
+
+
+    .main-3 {
+        display: flex;
+        justify-content: space-around;
+        /* flex-wrap: wrap; */
+        /* text-align: center; */
+        align-items: center;
+        max-width: 1320px;
+        flex-wrap: wrap;
+        margin: 10px auto;
+
+    }
+
+    .services {
+        width: 30%;
+        background-color: #FFFFFF;
+        border: 2px solid rgb(246, 241, 241);
+        border-radius: 10px;
+        box-shadow: 8px 8px 20px 3px rgb(195, 189, 189);
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .services .frame {
+        height: 95px;
+        width: 67px;
+        object-fit: contain;
+    }
+
+    .services h3 {
+
+        color: rgb(31, 25, 36);
+        font-size: 24px;
+        font-weight: bold;
+        padding: 12px 0px 12px 0px;
+    }
+
+    .para3 {
+        font-size: 16;
+        font-weight: lighter;
+        color: #818385;
+        /* text-transform: ; */
+    }
+
+    /*this is the Css of learn more button tag */
+
+    .learn-more {
+        display: flex;
+        justify-content: space-around;
+
+        margin: 0 auto;
+    }
+
+    .btn2 {
+        height: 60px;
+        width: 200px;
+        font-size: 18px;
+        font-weight: 900;
+        background-color: #ffffff;
+        color: #458FF6;
+        border: 1px solid #458FF6;
+        border-radius: 30px;
+        margin-top: 50px;
+
+
+    }
+
+    /*------------------------------------------------- section three is startion right from their -------------------------------*/
+
+
+    .section4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* align-items: center; */
+        max-width: 1320px;
+        margin: 125px auto;
+    }
+
+    .main-4 {
+        max-width: 700px;
+        /* margin: 0 auto; */
+    }
+
+    .main-4 img {
+        width: 100%;
+    }
+
+    .main-4-2 {
+        max-width: 400px;
+    }
+
+
+    .main-4-2 h2 {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .main-4-2 hr {
+        height: 4px;
+        width: 50px;
+        border-radius: 50px;
+        /* text-align: center; */
+        /* margin: auto; */
+        background-color: black;
+        border: none;
+        margin: 40px 0;
+    }
+
+    .para4 {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #818385;
+    }
+
+
+    /*------------------------------------------------------- Section five starting from hare ---------------------------------*/
+
+    .section5 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1320px;
+        margin: 125px auto;
+    }
+
+    .main-5-1 {
+        max-width: 400px;
+        /* margin: 0 auto; */
+    }
+
+
+    .main-5-2 {
+        max-width: 700px;
+    }
+
+    .main-5-2 img {
+        width: 100%;
+    }
+
+
+    .main-5-1 h2 {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .main-5-1 hr {
+        height: 4px;
+        width: 50px;
+        border-radius: 50px;
+        /* text-align: center; */
+        /* margin: auto; */
+        background-color: black;
+        border: none;
+        margin: 40px 0;
+    }
+
+    .para5 {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #818385;
+    }
+
+    .btn3 {
+        align-items: center;
+        height: 60px;
+        width: 200px;
+        font-size: 18px;
+        font-weight: 900;
+        background-color: #ffffff;
+        color: #458FF6;
+        border: 1px solid #458FF6;
+        border-radius: 30px;
+        margin-top: 50px;
+
+
+    }
+
+    /* --------------------------------------------------section6 is start here------------------------------------------------- */
+
+    .section6 {
+        /* border: 2px solid black; */
+        max-width: 1000px;
+        align-self: center;
+        margin: auto;
+        background-color: #458FF6;
+        color: #FFFFFF;
+        border-radius: 20px;
+
+
+
+    }
+
+    .section6 h3 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        font-style: normal;
+        padding-top: 50px;
+        line-height: 48px;
+    }
+
+    .section6 hr {
+        height: 3px;
+        width: 50px;
+        border-radius: 50px;
+        margin: 20px auto;
+        background-color: rgb(255, 255, 255);
+
+        border: none;
+    }
+
+    .main-6-1 {
+        max-width: 884px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-bottom: 40px; */
+        padding: 30px 0px 50px 0px;
+    }
+
+    .left-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .left-wrapper .img {
+        height: 133px;
+        border: 1px solid rgb(251, 249, 249);
+        border-radius: 100px;
+        overflow: hidden;
+    }
+
+    .founder {
+        padding-left: 30px;
+    }
+
+    .right-wrapper {
+
+        max-width: 300px;
+        width: 100%;
+    }
+
+    /*  -----------------------------------------------------this is the 7th section---------------------------------------------------- */
+
+    .section7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1100px;
+        width: 100%;
+
+        margin: 20px auto;
+        padding: 50px 0px;
+
+    }
+
+    .section7 h2 {
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 48px;
+    }
+
+    .section7 hr {
+        height: 3px;
+        width: 50px;
+        border-radius: 50px;
+        margin: 20px auto;
+        background-color: rgb(7, 1, 1);
+
+        border: none;
+    }
+
+    .main-7 {
+        max-width: 1100px;
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .main-7 div {
+        max-width: 350px;
+        border-radius: 25px;
+        box-shadow: 3px 30px 50px 1px rgb(218, 216, 216);
+        overflow: hidden;
+    }
+
+    .main-7 div img {
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+    .main-7 div h4 {
+        padding: 15px;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 32px;
+    }
+
+
+    .main-7 div p {
+        width: 266px;
+        padding: 0px 15px;
+        font-weight: lighter;
+        line-height: 28px;
+        color: gray;
+
+    }
+
+    .main-7 div button {
+        padding: 15px;
+        color: #4089ED;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 28px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 30px;
+
+    }
+
+
+    /*----------------- Footer is Ending here-------------------- */
+
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #4089ED;
+        color: #FFFFFF;
+        padding: 118px 190px;
+    }
+
+    .foot1 {
+        max-width: 400px;
+    }
+
+
+
+    .footer h2 {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 60px;
+    }
+
+    .footer p {
+        font-size: 18px;
+        font-weight: lighter;
+        line-height: 38px;
+
+    }
+
+    .foot1 p {
+        line-height: 28px;
+        padding-bottom: 8px;
+    }
+
+    .ftlgoflx {
+        display: flex;
+        align-items: center;
+    }
+
+    .ftlgoflx h2 {
+        padding-left: 20px;
+    }
+
+    .ftlgo {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        background-color: #ffffff;
+        color: #4089ED;
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+        line-height: 40px;
+        text-shadow: 0px 4px 5px rgb(129, 127, 127);
+
+    }
